@@ -33,8 +33,6 @@ layout: null
         {% unless page.home_active == 'active' %}
           <li><a id="side-nav-name" href="/"><span class="first-name">mike</span> <span class="last-name">raimondi</span></a></li>
         {% endunless %}
-        <li class="{{ page.about_active }}"><a href="/about">about</a></li>
-        <li class="{{ page.contact_active }}"><a href="/contact">contact</a></li>
         <li class="{{ page.archive_active }}"><a href="/archive">archive</a></li>
         <li><a href="/feed.xml" target="_blank">rss</a></li>
       </nav>
@@ -49,8 +47,6 @@ layout: null
       <section class="top-bar-section">
         <ul class="right">
           <li class="{{ page.home_active }}"><a href="/">home</a></li>
-          <li class="{{ page.about_active }}"><a href="/about">about</a></li>
-          <li class="{{ page.contact_active }}"><a href="/contact">contact</a></li>
           <li class="{{ page.archive_active }}"><a href="/archive">archive</a></li>
           <li><a href="/feed.xml" target="_blank">rss</a></li>
         </ul>
