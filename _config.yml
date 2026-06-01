@@ -13,10 +13,11 @@ exclude:
   - CNAME
   - Gemfile
   - Procfile
+  - vendor
 name: Mike Raimondi
 description: Mike Raimondi's personal site
 url: https://mikeraimondi.com
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-coffeescript
