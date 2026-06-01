@@ -35,14 +35,8 @@ layout: null
         {% endunless %}
         <li class="{{ page.about_active }}"><a href="/about">about</a></li>
         <li class="{{ page.contact_active }}"><a href="/contact">contact</a></li>
+        <li class="{{ page.archive_active }}"><a href="/archive">archive</a></li>
         <li><a href="/feed.xml" target="_blank">rss</a></li>
-        {% unless page.home_active == 'active' %}
-          <li>
-            <ul class="button-group even-2 social">
-              {% include social_buttons.html classes="expand" %}
-            </ul>
-          </li>
-        {% endunless %}
       </nav>
     </div>
     <nav class="show-for-small-only top-bar" data-topbar>
@@ -57,6 +51,7 @@ layout: null
           <li class="{{ page.home_active }}"><a href="/">home</a></li>
           <li class="{{ page.about_active }}"><a href="/about">about</a></li>
           <li class="{{ page.contact_active }}"><a href="/contact">contact</a></li>
+          <li class="{{ page.archive_active }}"><a href="/archive">archive</a></li>
           <li><a href="/feed.xml" target="_blank">rss</a></li>
         </ul>
       </section>
