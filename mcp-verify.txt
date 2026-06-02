@@ -1,0 +1,1 @@
+GitHub MCP write-path verification. This branch is safe to delete.
